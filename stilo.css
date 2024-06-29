@@ -1,0 +1,140 @@
+body{
+    background: #a5d3a5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% auto;
+    padding: 0%;
+
+}
+
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.formulario a{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario p{
+    text-align: center;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: black;
+    transform: translateY(-150%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username span::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    background: gray;
+    transition: .5s;
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -5px;
+    color: gray;
+}
+
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    width: 100%;
+}
+
+.username textarea{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: red;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.logo{
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+}
+.footer p{
+    color: black;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a{
+    color: black;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
