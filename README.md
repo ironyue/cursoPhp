@@ -17,6 +17,11 @@ Antes de comenzar, asegúrate de tener instalado:
 
 git clone https://github.com/tu-usuario/crud-con-login-php.git
 
+2. Importar Base de Datos
+
++ Crea una base de datos en tu servidor MySQL.
++ Importa el archivo dataBase.sql que se encuentra en la raíz del proyecto.
+
 2. Configuracion de entorno
 
 * Asegúrate de configurar correctamente las rutas y URLs en el archivo config.php según la configuración de tu servidor local o remoto.
