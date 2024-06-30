@@ -27,7 +27,7 @@ git clone https://github.com/tu-usuario/crud-con-login-php.git
 + Inicia sesión con las credenciales predeterminadas o crea una nueva cuenta.
 + Gestiona los registros utilizando las opciones de CRUD disponibles.
 
-## Contribuciones
+### Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
 
@@ -37,5 +37,5 @@ Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor s
 4. Sube la rama (git push origin feature/nueva-funcionalidad).
 5. Abre un Pull Request. 
 
-[^1]: Licencia
+### Licencia
 Este proyecto está bajo la Licencia MIT
