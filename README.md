@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener instalado:
 
 1. Clonar repositorio
 
-git clone https://github.com/tu-usuario/crud-con-login-php.git
+git clone https://github.com/ironyue/cursoPhp.git
 
 2. Importar Base de Datos
 
